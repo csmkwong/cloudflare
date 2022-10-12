@@ -3,8 +3,7 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid'; // Grid version 1
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import BasicGrid from './BasicGrid';
-import { DataGrid } from '@mui/x-data-grid';
-import * as React from 'react';
+
 import Box from '@mui/material/Box';
 import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 
