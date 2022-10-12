@@ -55,8 +55,6 @@ const rows = [
 function App() {
   return (
 
-    <BasicGrid></BasicGrid>
-    <>
     <Box sx={{ height: 400, width: '100%' }}>
     <DataGrid
       rows={rows}
@@ -68,7 +66,7 @@ function App() {
       experimentalFeatures={{ newEditingApi: true }}
     />
   </Box>
-  </>
+
   )
    
 
