@@ -6,10 +6,9 @@ import BasicGrid from './BasicGrid';
 
 
 function App() {
-  return
-  {
+  return 
     <BasicGrid></BasicGrid>
-  }
+
 
 
 }
