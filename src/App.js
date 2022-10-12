@@ -6,8 +6,11 @@ import BasicGrid from './BasicGrid';
 
 
 function App() {
-  return 
-    <BasicGrid />
+  return (
+
+    <BasicGrid></BasicGrid>
+  )
+   
 
 }
 
