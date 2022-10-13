@@ -7,7 +7,9 @@ import TodoContainer from "./components/TodoContainer"
 
 function App() {
   return (
-    <TodoContainer></TodoContainer>
+    <React.StrictMode>
+      <TodoContainer></TodoContainer>
+    </React.StrictMode>
   )
    
 
