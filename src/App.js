@@ -59,8 +59,8 @@ function App() {
     <DataGrid
       rows={rows}
       columns={columns}
-      pageSize={5}
-      rowsPerPageOptions={[5]}
+      pageSize={3}
+      rowsPerPageOptions={[3]}
       checkboxSelection
       disableSelectionOnClick
       experimentalFeatures={{ newEditingApi: true }}
