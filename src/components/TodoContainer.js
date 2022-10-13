@@ -1,6 +1,8 @@
 import React from "react"
 
-state = {
+
+class TodoContainer extends React.Component {
+  state = {
     todos: [
       {
         id: 1,
@@ -19,8 +21,7 @@ state = {
       }
     ]
    };
-
-class TodoContainer extends React.Component {
+ 
     render() {
         return (
             <ul>
