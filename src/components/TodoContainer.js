@@ -30,7 +30,7 @@ class TodoContainer extends React.Component {
         <Header />
         <TodosList 
 
-          handleChange = () => {
+          handleChange = id => {
             this.setState(prevState => ({
               todos: prevState.todos.map(todo => {
                 if (todo.id === id) {
