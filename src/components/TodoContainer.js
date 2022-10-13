@@ -33,21 +33,21 @@ class TodoContainer extends React.Component {
       ]
     });
   };
-
-  this.setState(prevState => {
-    return {
-      todos: prevState.todos.map(todo => {
-        if (todo.id === id) {
-          return {
-            ...todo,
-            completed: !todo.completed,
+  handleChange = id => {
+    this.setState(prevState => {
+      return {
+        todos: prevState.todos.map(todo => {
+          if (todo.id === id) {
+            return {
+              ...todo,
+              completed: !todo.completed,
+            }
           }
-        }
-        return todo
-      }),
-    }
-  })
-
+          return todo
+        }),
+      }
+    })
+  }
 
    render() {
     return (
